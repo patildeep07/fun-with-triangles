@@ -1,0 +1,17 @@
+*{
+    /* width: 100%; */
+    text-align: center;
+}
+
+.container {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+label , input {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
