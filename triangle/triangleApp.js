@@ -4,12 +4,20 @@ var outputDiv = document.querySelector(".output-div");
 
 
 
-submitBtn.addEventListener("click", checkTriangle)
+submitBtn.addEventListener("click", checkValues)
 
 
 function sumOfAngles(angle1, angle2, angle3){
     return Number(angle1) + Number(angle2) + Number(angle3)
     // console.log(angle1,angle2,angle3)
+}
+
+function checkValues(){
+    if (inputs[0].value&&inputs[1].value&&inputs[2].value){
+        checkTriangle()
+    }else{
+        outputDiv.innerText = "Please enter all the Angles"
+    }
 }
 
 
@@ -22,5 +30,7 @@ function checkTriangle(){
     else {
         // console.log("It is not a Triangle")
         outputDiv.innerText = "It is not a Triangle"
+    
     }
+    
 }

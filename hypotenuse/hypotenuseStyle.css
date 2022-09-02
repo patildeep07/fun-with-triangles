@@ -1,17 +1,90 @@
 *{
-    /* width: 100%; */
+    font-family: 'Playfair Display SC', serif;
     text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.main-header{
+    padding-bottom: 1%;
+    padding-top: 1%;
+    position:relative;
+    text-align: center;
+    align-self: center;
+    background-color: #7c3aed;
+    border-bottom-left-radius: 2em;
+    border-bottom-right-radius: 2em;
+    color: aliceblue;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+.main-header .top-nav {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    justify-content: center;
+    
+}
+
+.main-header .top-nav a{
+    /* background-color: aliceblue; */
+    color: aliceblue; 
+    padding: 1%;
+    text-align: center;
+    margin-right: 1%;
+    margin-left: 1%;
+    text-decoration: none;
+
 }
 
 .container {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 80%;
+    width: fit-content;
+    max-width: 70%;
+    padding: 20px;
 }
 
 label , input {
     display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+
+label{
+    color: #7c3aed;
+    font-weight: 600;
+    font-size: large;
+}
+
+input{
+    border-radius: 10px;
+    border-color: #7c3aed;
+    color: #7c3aed;
+}
+
+button{
+    padding: 10px 15px 10px 15px;
+    margin-top: 10px;
+    border-radius: 20px;
+    border-color: #7c3aed;
+    background-color: #7c3aed;
+    color: aliceblue;
+}
+
+.outputDiv{
+    margin-top: 20px;
+    border: solid;
+    border-color: #7c3aed;
+    color: #7c3aed;
+    width: fit-content;
+    max-width: 70%;
+    padding: 20px;
+    border-radius: 10px;
     margin-left: auto;
     margin-right: auto;
 }
