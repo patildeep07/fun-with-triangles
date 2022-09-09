@@ -9,6 +9,7 @@ function checkAnswers() {
     var score=0;
     var i=0;
     for(let entries of data.values()){
+        // console.log(entries)
         if( entries === correctAnswers[i]){
             score++
         }
